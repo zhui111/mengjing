@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>测试小站合集</title>
+<meta name="description" content="梦境人格测试、鬼格测试、命定城市测试、思维同道 四个在线测试站点导航">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  background:#0d0b17;color:#e8e4f0;line-height:1.75;
+  padding:48px 20px 72px;
+}
+.wrap{max-width:880px;margin:0 auto}
+header{text-align:center;margin-bottom:56px}
+h1{
+  font-size:34px;font-weight:600;letter-spacing:2px;margin-bottom:14px;
+  background:linear-gradient(96deg,#b79cff,#7fd4e8);
+  -webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;color:#b79cff;
+}
+.sub{color:#8e88a6;font-size:15px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}
+.card{
+  background:#171429;border:1px solid #2a2542;border-radius:14px;
+  padding:26px 24px;display:flex;flex-direction:column;
+  transition:border-color .25s,transform .25s;
+}
+.card:hover{border-color:#5a4a96;transform:translateY(-3px)}
+.card h2{font-size:20px;font-weight:600;margin-bottom:6px;color:#f0ecfa}
+.tag{
+  display:inline-block;font-size:12px;padding:2px 9px;border-radius:20px;
+  border:1px solid #3d3560;color:#a99ed4;margin-bottom:14px;
+}
+.tag.free{border-color:#2f6b58;color:#6fd6ac}
+.card p{font-size:14px;color:#9c95b8;flex:1;margin-bottom:16px}
+.meta{font-size:13px;color:#7a7396;margin-bottom:18px}
+.meta span{margin-right:16px}
+.btn{
+  display:inline-block;text-align:center;text-decoration:none;
+  background:linear-gradient(96deg,#6d4fd0,#4b7fd6);color:#fff;
+  padding:11px 0;border-radius:9px;font-size:15px;font-weight:500;
+}
+.btn:hover{opacity:.88}
+.note{
+  margin-top:44px;padding:18px 20px;background:#141126;
+  border-left:3px solid #5a4a96;border-radius:6px;
+  font-size:14px;color:#9c95b8;
+}
+footer{text-align:center;margin-top:48px;font-size:13px;color:#5f5978}
+@media (max-width:560px){body{padding:32px 16px 56px}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>测试小站合集</h1>
+  <p class="sub">四个自建在线测试站点 · Next.js + Prisma · 移动端优先</p>
+</header>
+<main class="grid">
+
+  <section class="card">
+    <h2>梦境人格测试</h2>
+    <span class="tag">需口令</span>
+    <p>基于原创四维人格体系，通过 32 道四选一题目，生成专属于你的梦境人格画像与深度解析。16 种类型各配独立立绘与长文解读，支持注册账号保存历史记录。</p>
+    <div class="meta"><span>32 题</span><span>16 型人格</span></div>
+    <a class="btn" href="https://dream.webtrn.cn" target="_blank" rel="noopener">打开站点</a>
+  </section>
+
+  <section class="card">
+    <h2>鬼格测试</h2>
+    <span class="tag">需口令</span>
+    <p>玄学幽冥主题的人格测试。四维八极——魂相（游魂／定魄）、阴感（通冥／明鉴）、情执（痴念／忘川）、业行（随缘／争渡），组合出 16 种鬼格，各配国风立绘。</p>
+    <div class="meta"><span>32 题</span><span>16 型鬼格</span></div>
+    <a class="btn" href="https://dream.webtrn.cn/ghost" target="_blank" rel="noopener">打开站点</a>
+  </section>
+
+  <section class="card">
+    <h2>命定城市测试</h2>
+    <span class="tag">需口令</span>
+    <p>结合八字排盘与六维生活问卷，从 40 座中国城市里算出与你最相合的那一座，附五行方位解析与备选城市清单。</p>
+    <div class="meta"><span>八字 + 六维问卷</span><span>40 座城市</span></div>
+    <a class="btn" href="https://dream.webtrn.cn/city" target="_blank" rel="noopener">打开站点</a>
+  </section>
+
+  <section class="card">
+    <h2>思维同道</h2>
+    <span class="tag free">免费开放</span>
+    <p>二十四问量出你的六维思维方式，从四十九位历史人物中找出与你想事路数最像的那一位，附思维侧写、招牌方法与原话出处。不必填生辰，无需登录。</p>
+    <div class="meta"><span>24 题</span><span>49 位人物</span></div>
+    <a class="btn" href="https://dream.webtrn.cn/mind" target="_blank" rel="noopener">打开站点</a>
+  </section>
+
+</main>
+<div class="note">
+  标注「需口令」的站点为付费门禁，口令不在本页公开，需另行获取。<strong>思维同道</strong>免费开放，可直接打开使用。
+</div>
+<footer>各站独立数据库与后台，同域部署，互不影响</footer>
+</div>
+</body>
+</html>
